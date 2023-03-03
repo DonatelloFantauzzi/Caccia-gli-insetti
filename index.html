@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Insect Catch Game</title>
+  </head>
+  <body>
+    <div class="screen">
+      <h1>Catch the Insect</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+    <div class="screen">
+      <h1>Qual'è il tuo insetto "preferito"?</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>Fly</p>
+            <img
+              src="https://pngimg.com/uploads/fly/small/fly_PNG3946.png"
+              alt=""
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Mosquito</p>
+            <img
+              src="https://pngimg.com/uploads/mosquito/small/mosquito_PNG18161.png"
+              alt=""
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Spider</p>
+            <img
+              src="https://pngimg.com/uploads/spider/small/spider_PNG43.png"
+              alt=""
+            />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Roach</p>
+            <img
+              src="https://pngimg.com/uploads/roach/small/roach_PNG12168.png"
+              alt=""
+            />
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div class="screen game-container">
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">
+        Ti serve aiuto? <br />
+        Sei malridotto? <br />
+        Sei fortunato, ne abbiamo otto!!! <br />
+        Questo gioco è impossibile
+      </h5>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
